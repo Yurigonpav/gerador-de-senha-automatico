@@ -1,1 +1,2 @@
-# gerador-de-senha-automatico
+# gerador de senha
+gerador de senhas para teste de estudos.
