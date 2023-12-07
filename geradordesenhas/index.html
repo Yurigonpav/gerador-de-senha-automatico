@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Senhas</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <button class="darkmod" onclick="toggleDarkMode()">Modo Escuro</button>   
+  <div class="container">
+    <label for="length">Número de caracteres:</label>
+    <input type="number" id="length" min="1" max="40" value="6">
+    <button onclick="generatePassword()">Gerar Senha</button>
+    <p id="password">Sua senha aparecerá aqui</p>
+    <button onclick="toggleSpecialChars()">Caracteres Especiais</button>
+<span id="specialCharsIndicator">Caracteres Especiais Ativados</span>
+    <br>
+  </div>
+<footer class="footer">
+  <p>Contate-me: <a href="mailto:yurigon2006@gmail.com">yurigon2006@gmail.com</a></p>
+</footer>
+  <script src="./assets/script.js"></script>
+</body>
+</html>
